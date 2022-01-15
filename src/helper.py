@@ -10,9 +10,14 @@ def clean_column_names(df):
     return df
 
 
-def read_file(path):
-    df = pd.read_excel(os.path.join(config.DATA_PATH, path),
-                       skiprows=4, engine='openpyxl')
+def read_file(path, skiprows=0):
+    if path.endswith('.xlsx'):
+        df = pd.read_excel(os.path.join(config.DATA_PATH, path),
+                           skiprows=skiprows, engine='openpyxl')
+        
+    if path.endswith('.csv'):
+        df = pd.read_csv(os.path.join(config.DATA_PATH, path))
+        
     df = clean_column_names(df)
     return df
 
