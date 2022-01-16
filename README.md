@@ -2,10 +2,10 @@
 
 ## Installations
 
-Numpy
-Pandas
-Matplotlib
-Seaborn
+- numpy==1.22.0
+- pandas==1.3.5
+- matplotlib==3.4.0
+- seaborn==0.11.2
 
 ## File Structure
 
