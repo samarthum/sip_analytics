@@ -23,3 +23,7 @@ My mother owns a franchise of SIP Abacus. I wanted to look at some of the data t
 ## Blog Post
 
 The main findings of this analysis can be found on my website [here](https://samarthmamadapur.com/2022/01/14/analysing-the-health-of-an-abacus-centre/).
+
+## Acknowledgements
+
+I would like to thank SIP Sanjaynagar, Bangalore for giving me access to their data, and allowing me to scrutinise the workings of the business. 
